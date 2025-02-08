@@ -44,3 +44,14 @@ console.log("Combined using concat:", combined);
 // 2. Reverse the array
 numArray.reverse();
 console.log("Reversed array:", numArray);
+
+
+
+
+const num = Number(prompt())
+let array = [];
+for (let i = 0; i < 1000; i++) {
+    arr.push(Math.floor(Math.random() * 1000) + 1);
+}
+
+let temp
