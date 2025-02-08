@@ -3,7 +3,7 @@
 // 1)push()
 // 2)shift()
 // 3)splice-start,deletecount items,so array by adding or removing elements
-slice-start,end
+slice - start, end;
 // 4)array.length
 // 5)array.includes
 // 6)[1,10,2]
@@ -29,29 +29,10 @@ console.log("After adding an element:", numbers);
 // 5. Remove the first element from the array
 numbers.shift();
 console.log("After removing the first element:", numbers);
-// 1. Create a 2D array representing a grid
-let grid = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9]
-];
 
-// 2. Access a specific element in the grid
-console.log("Element at [1][2]:", grid[1][2]);
-
-// 3. Modify an element in the grid
-grid[2][0] = 99;
-console.log("Modified grid:", grid);
 // 1. Create an array with 4 elements
 let arr = [10, 20, 30, 40];
 
-// 2. Extract the first and second elements into variables
-let [first, second] = array;
-console.log("First:", first, "Second:", second);
-
-// 3. Swap the values of two variables using array destructuring
-[first, second] = [second, first];
-console.log("Swapped values:", "First:", first, "Second:", second);
 // 1. Create two arrays of numbers
 let array1 = [1, 2, 3];
 let array2 = [4, 5, 6];
@@ -60,16 +41,6 @@ let array2 = [4, 5, 6];
 let combined = array1.concat(array2);
 console.log("Combined using concat:", combined);
 
-// 3. Combine using the spread operator
-let combinedSpread = [...array1, ...array2];
-console.log("Combined using spread operator:", combinedSpread);
-// 1. Create an array of numbers
-let numArray = [5, 3, 8, 1, 9];
-
 // 2. Reverse the array
 numArray.reverse();
 console.log("Reversed array:", numArray);
-
-// 3. Sort the array in descending order
-numArray.sort((a, b) => b - a);
-console.log("Descending order:", numArray);
